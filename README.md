@@ -10,7 +10,7 @@ Für die Nutzung installierst du dir die oben genannte App QField aus dem Playst
 Dann gehst du in den Github-Ordner deiner Stadt und lädst dir zwei Dateien auf dein mobiles Gerät. Es empfielt sich die Nutzung eines Dateimanagers auf deinem Android-Gerät.
 Eine Anleitung dafür gibt es [hier](https://qfield.org/docs/project-management/project-selection.html).
 
-Bei den beiden Dateien handelt es sich erstens um eine [QGIS](https://qgis.org)-Projektdatei (*.qgs) diese enthält quasi die Formatierungsangaben wie die vers. Layer aussehen sollen. Die zweite Datei ist eine [GeoPackage](https://de.wikipedia.org/wiki/GeoPackage)-Datei (*.gpkg) diese enthält die Geodaten in einer räumlich indizierten SQLite-Datenbank.  
+Bei den beiden Dateien handelt es sich erstens um eine [QGIS](https://qgis.org)-Projektdatei ( *.qgs) diese enthält quasi die Formatierungsangaben wie die vers. Layer aussehen sollen. Die zweite Datei ist eine [GeoPackage](https://de.wikipedia.org/wiki/GeoPackage)-Datei ( *.gpkg) diese enthält die Geodaten in einer räumlich indizierten SQLite-Datenbank.  
  
 Auch wenn QField recht selbst erklärend ist gibt es eine kleine Anleitung [hier](https://qfield.org/docs/user-guide/index.html).
 In den Formularen zu den einzelnen Bäumen kann man freigegeben Felder, wie den Baumzustand, selbst editieren. Die Änderungen bleiben dann zunächst lokal auf dem Gerät gespeichert. 
