@@ -1,3 +1,4 @@
+## Kurzanleitung
 Installiere die Android-App [QField](https://qfield.org/).
 
 Downloade dir für die Stadt Chemnitz folgende 2 Dateien lokal auf dein Android-Gerät:
