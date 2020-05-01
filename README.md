@@ -8,8 +8,7 @@ Dazu wird mobil die Android-App [QField](https://qfield.org/) genutzt. Für die 
 Für die Nutzung installierst du dir die oben genannte App QField aus dem Playstore (Für Apple-Geräte gibt es keine QField Version, [Input-App](https://github.com/lutraconsulting/input) wäre vielleicht eine Alternative).
 
 Dann gehst du in den Github-Ordner deiner Stadt und lädst dir zwei Dateien auf dein mobiles Gerät. Es empfielt sich die Nutzung eines Dateimanagers auf deinem Android-Gerät.
-Eine Anleitung dafür gibt es hier:  
-https://qfield.org/docs/project-management/project-selection.html
+Eine Anleitung dafür gibt es [https://qfield.org/docs/project-management/project-selection.html|hier]
 
 Bei den beiden Dateien handelt es sich erstens um eine [QGIS](https://qgis.org)-Projektdatei (*.qgs) diese enthält quasi die Formatierungsangaben wie die vers. Layer aussehen sollen. Die zweite Datei ist eine [GeoPackage](https://de.wikipedia.org/wiki/GeoPackage)-Datei (*.gpkg) diese enthält die Geodaten in einer räumlich indizierten SQLite-Datenbank.  
  
