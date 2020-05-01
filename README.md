@@ -19,6 +19,8 @@ In den Formularen zu den einzelnen Bäumen kann man freigegeben Felder, wie den 
 
 Hinweis: Unterwegs wird für den Bäumelayer kein Datenvolumen verbraucht, allerdings benötigt die OSM-Hintergrundkarte einen Datentransfer.
 
+Die Fragen einer dezentralen Synchronisierung der von vielen Leuten unterwegs erfassten Daten ist noch offen. Aufgrund des verwendeten SQL-Lite Standards sollte es aber Möglichkeiten geben. 
+
 ## Motivation
 Als Motivation für ein ähnliches Projekt kann dienen, dass die Opendata-Portale der Stadt auch Karten anbieten, dabei gibt es aber keine farbliche Differenzierung nach vers. Objekteigenschaften. Ebenso ist die Mobile Nutzung auf kleinen Handy-Displays bescheiden. Dieses soll keine Kritik an den Opendataportalen sein, diese sollen genau das, die Daten frei und maschinenlesbar anbieten. (Nebenbei gesagt, ist es ein riesen Fortschritt, dass die Städte jetzt solche Portale haben. Der Druck von Projekten wie OpenStreetMap hat da wohl auch geholfen. Noch schöner wäre es natürlich noch wenn die OpenData in Opensource-Protalen erscheinen würden, aber hauptsache man bekommt die Daten in vernünftigen, freien Formaten zum Download.)      
  
@@ -29,4 +31,4 @@ Eine existierende Karte kann den Einstieg in QGIS dabei erleichtern. Es gilt zue
 
 In QGIS können Daten sehr komfortabel nach einer Kategorisierung formatiert werden. Es können zufällige Farben genutzt werden, eine Farbskala oder eigene Farbzuordnungen. Bei dem Attributformular ist es sinnvoll viele Parameter auf nicht änderbar zu setzen und nur bei neuen Parametern wie dem Zustand diese änderbar zu machen. Wenn man mit dem ersten Layer zufrieden ist dupliziert man ihn und ändert die Formatierung. Am Ende schaltet man die Layer einzeln mit der Hintergrundkarte an und definiert noch Kartenthemen. Wenn man fertig ist, kann man beide Dateien auf sein mobiles Gerät übertragen, testen und ggf. veröffentlichen. 
 
-Die Fragen einer dezentralen Synchronisierung der von vielen Leuten unterwegs erfassten Daten ist noch offen. Aufgrund des verwendeten SQL-Lite protokolles sollte es aber Möglichkeiten geben. 
+Die Fragen einer dezentralen Synchronisierung der von vielen Leuten unterwegs erfassten Daten ist noch offen. Aufgrund des verwendeten SQL-Lite Standards sollte es aber Möglichkeiten geben. 
