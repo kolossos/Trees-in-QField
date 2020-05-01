@@ -1,4 +1,4 @@
-<img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213206_QField.jpg" width="250">  <img src="https://github.com/kolossos/Trees-in-QField/blob/master/images/Screenshot_20200501-213228_QField.jpg" width="250">  <img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213348_QField.jpg" width="250">
+<img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213206_QField.jpg" width="250" title="Bäume nach Art">  <img src="https://github.com/kolossos/Trees-in-QField/blob/master/images/Screenshot_20200501-213228_QField.jpg" width="250" title="Bäume nach Alter">  <img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213348_QField.jpg" width="250" title="editierbare Details als Formular">
 
 Dieses Repository soll die mobile Benutzung der als OpenData verfügbaren Baumdaten von Städten vereinfachen. 
 Sichtbar sollen sein die Baumart und das Alter(Pflanzjahr) für jeden Baum. Die App soll es auch ermöglichen unterwegs Daten zu
