@@ -18,11 +18,12 @@ https://qfield.org/docs/user-guide/index.html
 In den Formularen zu den einzelnen Bäumen kann man freigegeben Felder, wie den Baumzustand, selbst editieren. Die Änderungen bleiben dann zunächst lokal auf dem Gerät gespeichert. 
 
 Hinweis: Unterwegs wird für den Bäumelayer kein Datenvolumen verbraucht, allerdings benötigt die OSM-Hintergrundkarte einen Datentransfer.
+
+## Motivation
+Als Motivation für ein ähnliches Projekt kann dienen, dass die Opendata-Portale der Stadt auch Karten anbieten, dabei gibt es aber keine farbliche Differenzierung nach vers. Objekteigenschaften. Ebenso ist die Mobile Nutzung auf kleinen Handy-Displays bescheiden. Dieses soll keine Kritik an den Opendataportalen sein, diese sollen genau das, die Daten frei und maschinenlesbar anbieten. (Nebenbei gesagt, ist es ein riesen Fortschritt, dass die Städte jetzt solche Portale haben. Der Druck von Projekten wie OpenStreetMap hat da wohl auch geholfen. Noch schöner wäre es natürlich noch wenn die OpenData in Opensource-Protalen erscheinen würden, aber hauptsache man bekommt die Daten in vernünftigen, freien Formaten zum Download.)      
  
 ## Technische Hinweise für eigene Karten 
 Wenn man sich dafür interessiert eigene Karten für QField zu erzeugen, sollte man sich zunächst mit QGIS etwas vertraut machen und am besten natürlich die Qfield-Doku lesen. Auf der anderen Seite ist das ganze Projekt ohne eine einzige Zeile eigenen Code entstanden. 
-
-Als Motivation für ein ähnliches Projekt kann dienen, dass die Opendata-Portale der Stadt auch Karten anbieten, dabei gibt es aber keine farbliche Differenzierung nach vers. Objekteigenschaften. Ebenso ist die Mobile Nutzung auf kleinen Handy-Displays bescheiden. Dieses soll keine Kritik an den Opendataportalen sein, diese sollen genau das, die Daten frei und Maschinenlesbar anbieten. (Nebenbei gesagt, ist es ein riesen Fortschritt, dass die Städte jetzt solche Portale haben. Der Druck von Projekten wie OpenStreetMap hat da wohl auch geholfen.)      
 
 Eine existierende Karte kann den Einstieg in QGIS dabei erleichtern. Es gilt zuerst die Geodaten die als OpenData von der Stadt angeboten werden herunterzuladen und z.B. die GEOJSON-Datei in QGIS als Vectorlayer einzuladen. Da eine mittlere Großstadt schnell 10.000 Baume besitzt ist die Nutzung der GEOJSON Datei zwar auf einem leistungsstarken Desktop problemlos möglich aber auf einem mobilen Gerät nicht performant. Deshalb sollte in QGIS der GEOJSON-Layer als GeoPackage gespeichert werden (rechtsklick->Exportieren/Objekt speichern als) und anschließend erneut eingelesen werden. 
 
