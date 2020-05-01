@@ -1,3 +1,5 @@
+<img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213206_QField.jpg" width="250">  <img src="https://github.com/kolossos/Trees-in-QField/blob/master/images/Screenshot_20200501-213228_QField.jpg" width="250">  <img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213348_QField.jpg" width="250">
+
 Dieses Repository soll die mobile Benutzung der als OpenData verfügbaren Baumdaten von Städten vereinfachen. 
 Sichtbar sollen sein die Baumart und das Alter(Pflanzjahr) für jeden Baum. Die App soll es auch ermöglichen unterwegs Daten zu
 editieren. So können von den Nutzern z.B. der Zustand eines Baumes erfasst werden. 
@@ -18,7 +20,7 @@ In den Formularen zu den einzelnen Bäumen kann man freigegeben Felder, wie den 
 
 Hinweis: Unterwegs wird für den Bäumelayer kein Datenvolumen verbraucht, allerdings benötigt die OSM-Hintergrundkarte einen Datentransfer.
  
-== Technische Hintergründe ==
+## Technische Hinweise für eigene Karten 
 Wenn man sich dafür interessiert eigene Karten für QField zu erzeugen, sollte man sich zunächst mit QGIS etwas vertraut machen und am besten natürlich die Qfield-Doku lesen. Auf der anderen Seite ist das ganze Projekt ohne eine einzige Zeile eigenen Code entstanden. 
 
 Eine existierende Karte kann den Einstieg dabei erleichtern. Es gilt zuerst die Geodaten die als OpenData von der Stadt angeboten werden herunterzuladen und z.B. die GEOJSON-Datei in QGIS als Vectorlayer einzuladen. Da eine mittlere Großstadt schnell 10.000 Baume besitzt ist die Nutzung der GEOJSON Datei zwar auf einem leistungsstarken Desktop problemlos möglich aber auf einem mobilen Gerät nicht performant. Deshalb sollte in QGIS der GEOJSON-Layer als GeoPackage gespeichert werden (rechtsklick->Exportieren/Objekt speichern als) und anschließend erneut eingelesen werden. 
