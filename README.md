@@ -9,6 +9,20 @@ Für die Nutzung installierst du dir die oben genannte App QField aus dem Playst
 Dann gehst du in den Github- Ordner deiner Stadt und lädst dir zwei Dateien auf dein mobiles Gerät. Es empfielt sich die Nutzung eines Datei-managers auf deinem Android-Gerät.
 Eine Anleitung dafür gibt es hier:  
 https://qfield.org/docs/project-management/project-selection.html
+
+Bei den beiden Dateien handelt es sich erstens um eine [QGIS](https://qgis.org)-Projektdatei (*.qgs) diese enthält quasi die Formatierungsangaben wie die vers. Layer aussehen sollen und welche es gibt. Die zweite Datei ist eine [GeoPackage](https://de.wikipedia.org/wiki/GeoPackage)-Datei (*.gpkg) diese enthält die Geodaten in einer räumlich indizierten SQLite-Datenbank.  
  
 Auch wenn QField recht selbst erklärend ist gibt es eine kleine Anleitung, hier: 
 https://qfield.org/docs/user-guide/index.html
+In den Formularen zu den einzelnen Bäumen kann man freigegeben Felder, wie den Baumzustand, selbst editieren. Die Änderungen bleiben dann zunächst lokal auf dem Gerät gespeichert. 
+
+Hinweis: Unterwegs wird für den Bäumelayer kein Datenvolumen verbraucht, allerdings benötigt die OSM-Hintergrundkarte einen Datentransfer.
+ 
+== Technische Hintergründe ==
+Wenn man sich dafür interessiert eigene Karten für QField zu erzeugen, sollte man sich zunächst mit QGIS etwas vertraut machen und am besten natürlich die Qfield-Doku lesen. Auf der anderen Seite ist das ganze Projekt ohne eine einzige Zeile eigenen Code entstanden. 
+
+Eine existierende Karte kann den Einstieg dabei erleichtern. Es gilt zuerst die Geodaten die als OpenData von der Stadt angeboten werden herunterzuladen und z.B. die GEOJSON-Datei in QGIS als Vectorlayer einzuladen. Da eine mittlere Großstadt schnell 10.000 Baume besitzt ist die Nutzung der GEOJSON Datei zwar auf einem leistungsstarken Desktop problemlos möglich aber auf einem mobilen Gerät nicht performant. Deshalb sollte in QGIS der GEOJSON-Layer als GeoPackage gespeichert werden (rechtsklick->Exportieren/Objekt speichern als) und anschließend erneut eingelesen werden. 
+
+In QGIS können Daten sehr komfortabel nach einer Kategorisierung formatiert werden. Es können zufällige Farben genutzt werden, eine Farbskala oder eigene Farbzuordnungen. Bei dem Attributformular ist es sinnvoll viele Parameter auf nicht änderbar zu setzen und nur bei neuen Parametern wie dem Zustand diese änderbar zu machen. Wenn man mit dem ersten Layer zufrieden ist dupliziert man ihn und ändert die Formatierung. Am Ende schaltet man die Layer einzeln mit der Hintergrundkarte an und definiert noch Kartenthemen. Wenn man fertig ist, kann man beide Dateien auf sein mobiles Gerät übertragen, testen und ggf. veröffentlichen. 
+
+Die Fragen einer dezentralen Synchronisierung der von vielen Leuten unterwegs erfassten Daten ist noch offen. Aufgrund des verwendeten SQL-Lite protokolles sollte es aber Möglichkeiten geben. 
