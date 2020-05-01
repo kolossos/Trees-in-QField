@@ -8,4 +8,4 @@ include:
   - CONTRIBUTING.md
   - README.md
   - LICENSE
-theme: jekyll-theme-cayman
+theme: jekyll-theme-tactile
