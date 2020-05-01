@@ -7,5 +7,5 @@ include:
   - Kurzanleitung.md
   - CONTRIBUTING.md
   - README.md
-  - LICENSE.md
+  - LICENSE
 theme: jekyll-theme-cayman
