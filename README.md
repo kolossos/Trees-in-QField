@@ -8,12 +8,11 @@ Dazu wird mobil die Android-App [QField](https://qfield.org/) genutzt. Für die 
 Für die Nutzung installierst du dir die oben genannte App QField aus dem Playstore (Für Apple-Geräte gibt es keine QField Version, [Input-App](https://github.com/lutraconsulting/input) wäre vielleicht eine Alternative).
 
 Dann gehst du in den Github-Ordner deiner Stadt und lädst dir zwei Dateien auf dein mobiles Gerät. Es empfielt sich die Nutzung eines Dateimanagers auf deinem Android-Gerät.
-Eine Anleitung dafür gibt es [https://qfield.org/docs/project-management/project-selection.html|hier]
+Eine Anleitung dafür gibt es [https://qfield.org/docs/project-management/project-selection.html hier].
 
 Bei den beiden Dateien handelt es sich erstens um eine [QGIS](https://qgis.org)-Projektdatei (*.qgs) diese enthält quasi die Formatierungsangaben wie die vers. Layer aussehen sollen. Die zweite Datei ist eine [GeoPackage](https://de.wikipedia.org/wiki/GeoPackage)-Datei (*.gpkg) diese enthält die Geodaten in einer räumlich indizierten SQLite-Datenbank.  
  
-Auch wenn QField recht selbst erklärend ist gibt es eine kleine Anleitung, hier: 
-https://qfield.org/docs/user-guide/index.html
+Auch wenn QField recht selbst erklärend ist gibt es eine kleine Anleitung [https://qfield.org/docs/user-guide/index.html hier].
 In den Formularen zu den einzelnen Bäumen kann man freigegeben Felder, wie den Baumzustand, selbst editieren. Die Änderungen bleiben dann zunächst lokal auf dem Gerät gespeichert. 
 
 Hinweis: Unterwegs wird für den Bäumelayer kein Datenvolumen verbraucht, allerdings benötigt die OSM-Hintergrundkarte einen Datentransfer.
