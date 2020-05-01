@@ -4,6 +4,7 @@ relative_links:
   enabled: true
   collections: true
 include:
+  - Kurzanleitung.md
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
