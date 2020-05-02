@@ -15,12 +15,11 @@ Dieses Projekt soll die mobile Benutzung der als OpenData verfügbaren Baumdaten
 Sichtbar gemacht werden unter anderem die Baumart und das Alter(Pflanzjahr) für jeden Baum. Die App soll es auch ermöglichen unterwegs Daten zu editieren. So können von den Nutzern z.B. die Zustände von Baumen erfasst werden. 
 
 ## Längere Erklärung
-Dazu wird mobil die Android-App [QField](https://qfield.org/) genutzt. Für die Datenaufbereitung und -auswertung kann auf dem Desktop das Programm QGIS genutzt werden, die Nutzung dieser sehr komplexen GIS-Anwendung ist aber kein Zwang für die reine mobile Nutzung.
+Dazu wird mobil die Android-App [QField](https://qfield.org/) genutzt. Für die Datenaufbereitung und -auswertung kann auf dem Desktop das sehr leistungsmächtige Programm QGIS genutzt werden.
 
-Für die Nutzung installierst du dir die oben genannte App QField aus dem Playstore (Für Apple-Geräte gibt es keine QField Version, [Input-App](https://github.com/lutraconsulting/input) wäre vielleicht eine Alternative).
+Für die Nutzung installierst du dir die oben genannte App QField aus dem Playstore Für Apple-Geräte gibt es leider keine QField Version, ggf. könnte [Input-App](https://github.com/lutraconsulting/input) dafür eine Alternative sein.
 
-Dann gehst du in den Github-Ordner deiner Stadt und lädst dir zwei Dateien auf dein mobiles Gerät. Es empfielt sich die Nutzung eines Dateimanagers auf deinem Android-Gerät.
-Eine Anleitung dafür gibt es [hier](https://qfield.org/docs/project-management/project-selection.html).
+Dann gehst du in den Github-Ordner deiner Stadt und lädst dir zwei Dateien auf dein mobiles Gerät. Es empfielt sich die Nutzung eines Dateimanagers auf deinem Android-Gerät. Eine Anleitung dafür gibt es [hier](https://qfield.org/docs/project-management/project-selection.html). Im mobilen Browser hilft "Linkziel speichern". 
 
 Bei den beiden Dateien handelt es sich erstens um eine [QGIS](https://qgis.org)-Projektdatei ( *.qgs) diese enthält quasi die Formatierungsangaben wie die vers. Layer aussehen sollen. Die zweite Datei ist eine [GeoPackage](https://de.wikipedia.org/wiki/GeoPackage)-Datei ( *.gpkg) diese enthält die Geodaten in einer räumlich indizierten SQLite-Datenbank.  
  
@@ -30,6 +29,11 @@ In den Formularen zu den einzelnen Bäumen kann man freigegeben Felder, wie den 
 Hinweis: Unterwegs wird für den Bäumelayer kein Datenvolumen verbraucht, allerdings benötigt die OSM-Hintergrundkarte einen Datentransfer.
 
 Die Fragen einer dezentralen Synchronisierung der von vielen Leuten unterwegs erfassten Daten ist noch offen. Aufgrund des verwendeten SQL-Lite Standards sollte es aber Möglichkeiten geben. 
+
+##Spielideen
+* Baumart raten
+* Alter eines Baumes raten, wer am nächsten dran ist gewinnt. 
+* Besuch eines besonders alten Baumes.
 
 ## Motivation
 Als Motivation für ein ähnliches Projekt kann dienen, dass die Opendata-Portale der Stadt auch Karten anbieten, dabei gibt es aber keine farbliche Differenzierung nach vers. Objekteigenschaften. Ebenso ist die Mobile Nutzung auf kleinen Handy-Displays bescheiden. Dieses soll keine Kritik an den Opendataportalen sein, diese sollen genau das, die Daten frei und maschinenlesbar anbieten. (Nebenbei gesagt, ist es ein riesen Fortschritt, dass die Städte jetzt solche Portale haben. Der Druck von Projekten wie OpenStreetMap hat da wohl auch geholfen. Noch schöner wäre es natürlich noch wenn die OpenData in Opensource-Protalen erscheinen würden, aber hauptsache man bekommt die Daten in vernünftigen, freien Formaten zum Download.)      
