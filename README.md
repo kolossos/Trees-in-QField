@@ -30,7 +30,7 @@ Hinweis: Unterwegs wird für den Bäumelayer kein Datenvolumen verbraucht, aller
 
 Die Fragen einer dezentralen Synchronisierung der von vielen Leuten unterwegs erfassten Daten ist noch offen. Aufgrund des verwendeten SQL-Lite Standards sollte es aber Möglichkeiten geben. 
 
-##Spielideen
+## Spielideen
 * Baumart raten
 * Alter eines Baumes raten, wer am nächsten dran ist gewinnt. 
 * Besuch eines besonders alten Baumes.
