@@ -8,6 +8,7 @@ Downloade dir für die Stadt Chemnitz folgende 2 Dateien lokal auf dein Android-
 
 Geh in die App und öffne die *.qgs Datei.
 
+Die Daten für andere Städte finden sich unter: https://cloud.infra4future.de/s/HMkFR4zRZ3xdDWH
 -------------------------------------------------------------------------------------------
 
 <img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213206_QField.jpg" width="251" title="Bäume nach Art">  <img src="https://github.com/kolossos/Trees-in-QField/raw/master/images/Screenshot_20200501-213348_QField.jpg" width="251" title="editierbare Details als Formular">
